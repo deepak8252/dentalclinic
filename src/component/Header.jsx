@@ -7,7 +7,7 @@ const Header = () => {
     <>
     <div className='flex justify-between px-4 py-10 '>
       <div className='flex flex-row gap-3 items-center '>
-        <div  className=' flex justify-center items-center w-16 h-16 rounded-full text-white bg-opacity-55 bg-orange-300 shadow-lg'>
+        <div  className=' flex justify-center items-center w-12 h-12 rounded-full text-white bg-opacity-55 bg-orange-300 shadow-lg'>
         <MenuOpenIcon/>
         </div>
         <div>
@@ -20,8 +20,8 @@ const Header = () => {
            <p className=' text-gray-200 capitalize'>hello welcome !</p>
            <h3 className='text-white font-bold md:text-2xl lg:text-2xl sm:text-sm'>Jhon waston</h3>
         </div>
-        <div className='w-16 h-16 rounded-full'> 
-          <img src={profileurl} alt="profile" className='rounded-full h-16 w-16' />
+        <div className='w-12 h-12 rounded-full'> 
+          <img src={profileurl} alt="profile" className='rounded-full h-12 w-12' />
         </div>
       </div>
     </div>
