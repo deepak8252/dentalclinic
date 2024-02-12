@@ -4,6 +4,9 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import Search from '../component/Search';
 import Weather from '../component/Weather';
+import BookAppoiment from '../component/BookAppoiment';
+import Location from '../component/Location';
+import PopularSpecilist from '../component/PopularSpecilist';
 
 
 const Mainpage = () => {
@@ -11,6 +14,9 @@ const Mainpage = () => {
     <div>
       <Search/>
       <Weather/>
+      <BookAppoiment/>
+      <Location/>
+      <PopularSpecilist/>
     </div>
   )
 }

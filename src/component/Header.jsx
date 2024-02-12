@@ -5,7 +5,7 @@ import { profileurl } from '../util/constant';
 const Header = () => {
   return (
     <>
-    <div className='flex justify-between px-4 py-10 '>
+    <div className='flex justify-between px-4 py-10 shadow-xl '>
       <div className='flex flex-row gap-3 items-center '>
         <div  className=' flex justify-center items-center w-12 h-12 rounded-full text-white bg-opacity-55 bg-orange-300 shadow-lg'>
         <MenuOpenIcon/>
