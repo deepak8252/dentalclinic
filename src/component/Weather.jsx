@@ -25,7 +25,7 @@ const Weather = () => {
                 12/2 mathura road , sec-21 faridabad delhi
              </p>
            </div>
-           <div className='my-10  bg-orange-300 bg-opacity-30 shadow-lg rounded-3xl w-60  px-5 '>
+           <div className='my-10  bg-orange-300 bg-opacity-30 shadow-lg rounded-3xl w-60 py-3 px-5 '>
             <div className=' flex items-end justify-end mt-4'>
             <img src={money} alt="Valon Raises $43_9M for servicing platform, valued at $590M (1)-Photoroom 1.png"  className=''/>
             </div>
