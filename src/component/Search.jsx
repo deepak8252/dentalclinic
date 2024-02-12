@@ -9,7 +9,7 @@ const Search = () => {
                 <h3 className='text-white text-4xl uppercase font-bold'>consultant</h3>
             </div>
             <div className='flex flex-row gap-5 items-center justify-center'>
-            <div className='w-68 border  bg-white py-4 rounded-lg gap-5 px-3'>
+            <div className='w-68 border flex   bg-white py-4 rounded-lg gap-5 px-3'>
                 <SavedSearchIcon style={{ fontSize: '23px !important' }}/>
                 <input type="text" placeholder='search'  className='outline-none border-none px-4 '/>
                
