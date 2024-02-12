@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-color: orange;
+}
+.fs{
+    font-size: 88px !important;
+}
